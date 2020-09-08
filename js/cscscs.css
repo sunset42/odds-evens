@@ -3,12 +3,14 @@ h1 {
 }
 
 body {
-  /*width: 600px;*/
+  width: 700px;
+  margin: auto;
   text-align: center;
   border: 1px solid #bcbcbc;
 }
 @media (max-width: 480px) {
-  width: auto;
+  body { width: auto; }
+  }
 }
 
 img {
