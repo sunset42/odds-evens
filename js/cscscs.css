@@ -8,14 +8,17 @@ body {
   text-align: center;
   border: 1px solid #bcbcbc;
 }
+img {
+  max-width: 700px;
+}
+
 @media (max-width: 480px) {
   body { width: auto; }
+  img {max-width: 100%;}
   }
 }
 
-img {
-  max-width: 100%;
-}
+
 
 #wrap {
   text-align: center;
